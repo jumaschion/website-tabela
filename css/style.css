@@ -1,8 +1,15 @@
 
+
 table, tr, td, th  {
-    border-right: 1px solid #d8d8d8;
+    border-right: 2px solid #D8D8D8;
     border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+    width: 15px;
 }
+
+
+
 
 table {
     width: 70%;
@@ -12,12 +19,30 @@ table {
 .tabela__header_azul {
     background: #0078C1;
     padding: 10px;
+    color: white;
+    font-family: 'open sans';
+    font-weight: lighter;
+    font-size: 13px;
+
 }
 
 .tabela__header_verde {
     background: #009E2C;
     padding: 10px;
+    color: white;
+    font-family: 'open sans';
+    font-weight: lighter;
+    font-size: 13px;
+
+    
 }
+
+.tabela__header_tamanho {
+    margin: 0 auto;
+    padding: 150px;
+
+}
+
 
 tbody tr:nth-child(odd){
     background-color: #f5f5f5;
@@ -25,10 +50,37 @@ tbody tr:nth-child(odd){
 
 button {
     background-color: #FF5406;
-    margin: 0 auto;
-    padding: 10px;
+    color: white;
+    font-family: 'open sans';
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 5px auto;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px #979797;
 }
 
+.usuarios {
+    font-family: 'open sans';
+    color: #4A4A4A;
+    font-size: 14px;
+}
+
+h3 {
+    font-family: 'open sans';
+    font-weight: bold;
+    color: #4A4A4A;
+    font-size: 14px;
+}
+
+p {
+    font-family: 'open sans';
+    font-weight: lighter;
+    color: #4A4A4A;
+    font-size: 13px;
+}
 
 
 
