@@ -1,47 +1,56 @@
+/* GERAL */
 
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
 
 table, tr, td, th  {
     border-right: 2px solid #D8D8D8;
     border-collapse: collapse;
-    padding: 5px;
     text-align: center;
-    width: 15px;
+    padding: 7px; 
+    width: 20px;
+}
+
+th {
+    padding: 20px;
 }
 
 
-
+body {
+    padding-top: 30px;
+}
 
 table {
     width: 70%;
-    margin: 0 auto;
+ 
+}
+
+
+/* LAYOUT */
+
+.tabela-corpo {
+    border-top: 1px solid #d8d8d8;
 }
 
 .tabela__header_azul {
     background: #0078C1;
-    padding: 10px;
+    padding: 9px;
     color: white;
     font-family: 'open sans';
     font-weight: lighter;
-    font-size: 13px;
-
+    font-size: 13px;   
 }
 
 .tabela__header_verde {
     background: #009E2C;
-    padding: 10px;
+    padding: 9px;
     color: white;
     font-family: 'open sans';
     font-weight: lighter;
     font-size: 13px;
-
-    
-}
-
-.tabela__header_tamanho {
-    margin: 0 auto;
-    padding: 150px;
-
-}
+ }
 
 
 tbody tr:nth-child(odd){
@@ -55,12 +64,14 @@ button {
     font-weight: bold;
     font-size: 13px;
     text-transform: uppercase;
-    margin: 5px auto;
     padding: 10px 15px;
     border: none;
     border-radius: 4px;
-    box-shadow: 2px 2px #979797;
+    box-shadow: 2px 2px 10px  #979797;
 }
+
+
+/* TEXTOS/TITULOS */
 
 .usuarios {
     font-family: 'open sans';
@@ -73,6 +84,7 @@ h3 {
     font-weight: bold;
     color: #4A4A4A;
     font-size: 14px;
+    margin: 5px;
 }
 
 p {
@@ -82,6 +94,7 @@ p {
     font-size: 13px;
 }
 
-
-
-
+tr > td:first-child p {
+    text-align: left;
+    margin: 0px 0px 0px 10px;
+}
